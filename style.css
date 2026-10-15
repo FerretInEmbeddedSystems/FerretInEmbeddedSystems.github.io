@@ -9,6 +9,15 @@ body {
     padding: 0;
 }
 
+/* Vibrant lime/matrix green for general reading text */
+p {
+    font-family: 'Georgia', serif;
+    color: #73ff00;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
 /* Bright electric cyan for headers */
 h1 {
     font-family: 'Arial', sans-serif;
@@ -32,23 +41,26 @@ h2 {
     text-shadow: 0 0 2px #ff8c00;
 }
 
-
-/* Vibrant lime/matrix green for general reading text */
-p {
-    font-family: 'Georgia', serif;
-    color: #39ff14;                   /* consider #73ff00 instead */
+/* Deep nested headings or sub-sections */
+h3 {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    color: #ffff00; /* Laser beam yellow */
     text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #ffff00;
 }
 
-/* Hot fluorescent pink for the footer elements */
+/* Updated footer to match the engineering terminal look */
 footer {
-    font-family: 'Arial', sans-serif;
-    color: #ff007f; 
+    font-family: 'Fira Code', 'Courier New', monospace;
+    color: #4af626; /* Slightly dimmed phosphor green */
     text-align: center;
-    font-size: 0.9rem;
-    padding: 20px 0;
-    margin-top: 40px;
-    border-top: 1px solid #ff007f; /* Optional: Neon divider line */
+    font-size: 0.85rem;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px dashed #4af626; /* Looks like a terminal separation grid */
+    opacity: 0.8; /* Keeps the utility text secondary */
 }
+
