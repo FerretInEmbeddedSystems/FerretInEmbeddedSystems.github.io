@@ -15,8 +15,8 @@ h1 {
     color: #00fbff; 
     text-align: center;
     font-size: 4rem;
-    /* Optional: Adds a neon glow effect */
-    text-shadow: 0 0 1px #00f3ff, 0 0 2px #00f3ff; 
+    /* Optional: Adds a neon glow effect
+    text-shadow: 0 0 1px #00f3ff, 0 0 2px #00f3ff;  */
 }
 
 /* Subheadings that grab attention between sections */
@@ -28,8 +28,8 @@ h2 {
     margin-top: 30px; /* Generous spacing above the subheading */
     margin-bottom: 15px; /* Snug spacing above the paragraph below it */
     
-    /* Subtle neon underglow */
-    text-shadow: 0 0 2px #ff8c00;
+    /* Subtle neon underglow 
+    text-shadow: 0 0 2px #ff8c00;*/
 }
 
 /* Deep nested headings or sub-sections */
@@ -40,7 +40,7 @@ h3 {
     font-size: 1.4rem;
     margin-top: 25px;
     margin-bottom: 10px;
-    text-shadow: 0 0 5px #ffff00;
+  /*  text-shadow: 0 0 5px #ffff00;  */
 }
 
 /* Vibrant lime/matrix green for general reading text */
@@ -55,7 +55,7 @@ p {
 /* Updated footer to match the engineering terminal look */
 footer {
     font-family: 'Fira Code', 'Courier New', monospace;
-    color: #4af626; /* Slightly dimmed phosphor green */
+    color: #ff007f; /* Slightly dimmed phosphor green */
     text-align: center;
     font-size: 0.85rem;
     padding: 30px 0;
@@ -63,4 +63,20 @@ footer {
     border-top: 1px dashed #4af626; /* Looks like a terminal separation grid */
     opacity: 0.8; /* Keeps the utility text secondary */
 }
+
+/* Styles the email link in your footer */
+footer a {
+    color: #ff007f; /* Hot fluorescent pink */
+    text-decoration: none; /* Removes the ugly default underline */
+    font-weight: bold;
+    margin-left: 15px; /* Adds space between the copyright notice and the link */
+    transition: text-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Makes the link glow brighter when a user hovers over it */
+footer a:hover {
+    color: #ffffff; /* Turns bright white */
+    text-shadow: 0 0 8px #ff007f, 0 0 15px #ff007f; /* Intense neon pink glow */
+}
+
 
