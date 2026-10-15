@@ -12,17 +12,31 @@ body {
 /* Bright electric cyan for headers */
 h1 {
     font-family: 'Arial', sans-serif;
-    color: #00f3ff; 
+    color: #00fbff; 
     text-align: center;
     font-size: 2.5rem;
     /* Optional: Adds a neon glow effect */
-    text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff; 
+    text-shadow: 0 0 1px #00f3ff, 0 0 2px #00f3ff; 
 }
+
+/* Subheadings that grab attention between sections */
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #ff5e00; /* Vibrant electric orange */
+    text-align: left; /* Aligns with your paragraphs */
+    font-size: 1.8rem; /* Noticeably smaller than H1, but larger than paragraph text */
+    margin-top: 30px; /* Generous spacing above the subheading */
+    margin-bottom: 15px; /* Snug spacing above the paragraph below it */
+    
+    /* Subtle neon underglow */
+    text-shadow: 0 0 8px #ff5e00;
+}
+
 
 /* Vibrant lime/matrix green for general reading text */
 p {
     font-family: 'Georgia', serif;
-    color: #39ff14; 
+    color: #39ff14;                   /* consider #73ff00 instead */
     text-align: left;
     font-size: 1.1rem;
     line-height: 1.6;
