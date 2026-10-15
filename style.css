@@ -1,35 +1,40 @@
-/* STYLING FILE  */
+/*======================
+  STYLING SECTION
+  ======================*/
 
-html {
-  scroll-behavior: smooth;
-}
-
+/* Applies the dark background to the entire browser window */
 body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--serif);
-  line-height: 1.65;
-}
-
-/* ==========================================
-   FOOTER
-   ========================================== */
-
-.footer {
-    padding-block: 30px;
-    border-top: 1px solid var(--line);
-}
-
-.footer-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-.footer p {
+    background-color: #0b0c10; /* Very deep charcoal/off-black */
     margin: 0;
-    color: var(--muted);
-    font-size: .75rem;
+    padding: 0;
+}
+
+/* Bright electric cyan for headers */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #00f3ff; 
+    text-align: center;
+    font-size: 2.5rem;
+    /* Optional: Adds a neon glow effect */
+    text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff; 
+}
+
+/* Vibrant lime/matrix green for general reading text */
+p {
+    font-family: 'Georgia', serif;
+    color: #39ff14; 
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Hot fluorescent pink for the footer elements */
+footer {
+    font-family: 'Arial', sans-serif;
+    color: #ff007f; 
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ff007f; /* Optional: Neon divider line */
 }
