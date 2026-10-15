@@ -1,4 +1,4 @@
-# [Open Source Website](ferretinembeddedsystems.github.io/)
+# [Open Source Website](https://ferretinembeddedsystems.github.io/)
 This is a website, hosted through GitHub Pages, that is completely open source so that people can learn how to program and build a website.
 
 ## Project Structure Tree
