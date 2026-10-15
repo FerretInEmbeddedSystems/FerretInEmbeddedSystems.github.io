@@ -9,7 +9,6 @@ os-website/
 ├── images/
 │ ├── ferret.jpg
 │ └── another-ferret.jpg
-├── .htaccess
 ├── README.md
 └── LICENSE
 ```
