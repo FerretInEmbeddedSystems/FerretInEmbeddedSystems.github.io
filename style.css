@@ -9,15 +9,6 @@ body {
     padding: 0;
 }
 
-/* Vibrant lime/matrix green for general reading text */
-p {
-    font-family: 'Georgia', serif;
-    color: #73ff00;
-    text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
 /* Bright electric cyan for headers */
 h1 {
     font-family: 'Arial', sans-serif;
@@ -44,12 +35,21 @@ h2 {
 /* Deep nested headings or sub-sections */
 h3 {
     font-family: 'Fira Code', 'Courier New', monospace;
-    color: #ffff00; /* Laser beam yellow */
+    color: #ffe600; /* Laser beam yellow */
     text-align: left;
     font-size: 1.4rem;
     margin-top: 25px;
     margin-bottom: 10px;
     text-shadow: 0 0 5px #ffff00;
+}
+
+/* Vibrant lime/matrix green for general reading text */
+p {
+    font-family: 'Georgia', serif;
+    color: #73ff00;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 /* Updated footer to match the engineering terminal look */
