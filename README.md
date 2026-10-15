@@ -5,6 +5,7 @@ This is a website, hosted through GitHub Pages, that is completely open source s
 ```
 os-website/
 ├── index.html
+├── style.css
 ├── favicon.ico
 ├── images/
 │ ├── ferret.jpg
