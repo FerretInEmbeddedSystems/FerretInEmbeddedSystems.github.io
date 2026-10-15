@@ -11,7 +11,7 @@ os-website/
 │ ├── ferret.jpg
 │ └── another-ferret.jpg
 ├── README.md
-└── LICENSE
+└── LICENSE 
 ```
 
 ## License
